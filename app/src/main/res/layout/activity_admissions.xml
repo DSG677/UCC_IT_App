@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Admissions">
+
+    <TextView
+        android:id="@+id/tVAdmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/it_admission_requirements"
+        android:textAlignment="center"
+        android:textColor="#03376E"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tVRequirement1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVUCCLogo4" />
+
+    <ImageView
+        android:id="@+id/iVUCCLogo4"
+        android:layout_width="413dp"
+        android:layout_height="141dp"
+        android:background="#03376E"
+        android:contentDescription="@string/ucc_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ucc_logo"
+        tools:srcCompat="@drawable/ucc_logo" />
+
+    <TextView
+        android:id="@+id/tVRequirement1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/to_be_unconditionally_admitted_to_complete_ucc_undergraduate_programmes_individuals_should_possess_a_minimum_of_five_5_subjects_at_the_gce_or_csec_level_including_the_mandatory_english_language_and_mathematics_at_grades_a_b_c_or_1_2_3_respectively_a_csec_pass_at_level_3_must_have_been_obtained_since_1998"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tVRequirement2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVRequirement3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/candidates_can_opt_to_apply_under_the_mature_entry_option_to_be_accepted_applicants_must_be_working_for_5_years_or_more_and_be_at_a_minimum_age_of_25_years_academic_qualifications_a_detailed_resume_a_job_letter_and_3_professional_references_will_be_required"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tVApplyHere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVRequirement2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/candidates_who_have_a_minimum_of_4_cxcs_can_also_apply_pending_the_outstanding_cxc_subjects_or_can_opt_to_do_ucc_replacement_courses_core_mathematics_english_for_academic_purpose_and_fundamentals_of_accounting"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tVRequirement3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVApplicationURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/https_ucc_edu_jm_apply"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVApplyHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="181dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/apply_here"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tVApplicationURL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

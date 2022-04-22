@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">UCC IT App</string>
+    <string name="ucc_logo">UCC Logo</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="staff_directory">STAFF DIRECTORY</string>
+    <string name="courses">COURSES</string>
+    <string name="admissions">ADMISSIONS</string>
+    <string name="timetable">TIMETABLE</string>
+    <string name="email_h_o_d">Email H.O.D</string>
+    <string name="ucc_tools">UCC TOOLS</string>
+    <string name="fabemail">fabEmail</string>
+    <string name="staff_directory2">STAFF DIRECTORY</string>
+    <string name="staff_photograph">Staff Photograph</string>
+    <string name="contact">Contact</string>
+    <string name="telephone">Telephone</string>
+    <string name="staff_name">Staff Name</string>
+    <string name="email">Email</string>
+    <string name="staff_phone_call">Staff Phone Call</string>
+    <string name="staff_email">Staff Email</string>
+    <string name="fab_email">FAB Email</string>
+    <string name="it_admission_requirements">IT ADMISSION REQUIREMENTS</string>
+    <string name="https_ucc_edu_jm_apply">https://ucc.edu.jm/apply/</string>
+    <string name="apply_here">APPLY HERE</string>
+    <string name="to_be_unconditionally_admitted_to_complete_ucc_undergraduate_programmes_individuals_should_possess_a_minimum_of_five_5_subjects_at_the_gce_or_csec_level_including_the_mandatory_english_language_and_mathematics_at_grades_a_b_c_or_1_2_3_respectively_a_csec_pass_at_level_3_must_have_been_obtained_since_1998">To be unconditionally admitted to complete UCC undergraduate programmes, individuals should possess a minimum of five (5) subjects at the GCE or CSEC level (including the mandatory English Language and Mathematics) at grades A, B, C or 1, 2, 3 respectively. A CSEC pass at level 3 must have been obtained since 1998.</string>
+    <string name="candidates_can_opt_to_apply_under_the_mature_entry_option_to_be_accepted_applicants_must_be_working_for_5_years_or_more_and_be_at_a_minimum_age_of_25_years_academic_qualifications_a_detailed_resume_a_job_letter_and_3_professional_references_will_be_required">Candidates can opt to apply under the Mature Entry option. To be accepted, applicants must be working for 5 years or more and be at a minimum age of 25 years. Academic qualifications, a detailed resume, a job letter and 3 professional references will be required.</string>
+    <string name="candidates_who_have_a_minimum_of_4_cxcs_can_also_apply_pending_the_outstanding_cxc_subjects_or_can_opt_to_do_ucc_replacement_courses_core_mathematics_english_for_academic_purpose_and_fundamentals_of_accounting">Candidates who have a minimum of 4 CXCs can also apply pending the outstanding CXC subjects or can opt to do UCC replacement courses Core Mathematics, English for Academic Purpose and Fundamentals of Accounting.</string>
+    <string name="course_timetable">TIMETABLE</string>
+    <string name="course_list">COURSE LIST</string>
+
+    <string-array name="StaffDirectory">
+        <item>MCBEAN, Rochelle</item>
+        <item>OSBOURNE, Otis</item>
+        <item>ROSE, Natalie</item>
+        <item>WILLIAMS, Neil</item>
+    </string-array>
+
+    <string-array name="CourseTimetable">
+        <item>Computer Information Systems\nMON 7PM - 10PM</item>
+        <item>Data Communication &amp; Network I\nWED 8PM - 10PM</item>
+        <item>Data Communication &amp; Network II\nSUN 8PM - 10PM</item>
+        <item>Data Structures &amp; File Management I\nSUN 6PM - 8PM</item>
+        <item>Database Management Systems I\nTHURS 8PM - 10PM</item>
+        <item>Database Management Systems II\nTUES 6PM - 8PM</item>
+        <item>Internet Authoring I\nWED 8PM - 10PM</item>
+        <item>Object Oriented Programming Using C++\nTUES 6PM - 8PM</item>
+        <item>Programming Design Using Java\nSAT 6PM - 8PM</item>
+        <item>Programming Techniques\nMON 6PM - 8PM</item>
+    </string-array>
+</resources>

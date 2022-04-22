@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".StaffInfo">
+
+    <ImageView
+        android:id="@+id/iVUCCLogo3"
+        android:layout_width="413dp"
+        android:layout_height="141dp"
+        android:background="#03376E"
+        android:contentDescription="@string/ucc_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ucc_logo"
+        tools:srcCompat="@drawable/ucc_logo" />
+
+    <ImageView
+        android:id="@+id/iVStaffPhoto"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="141dp"
+        android:contentDescription="@string/staff_photograph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVStaffName"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tVStaffTelephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/telephone"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tVStaffEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVStaffName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/staff_name"
+        android:textAlignment="center"
+        android:textColor="#03376E"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iVStaffPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVUCCLogo3" />
+
+    <TextView
+        android:id="@+id/tVStaffEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="249dp"
+        android:text="@string/email"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVStaffContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/contact"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tVStaffTelephone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVStaffPhoto" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabStaffCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="166dp"
+        android:clickable="true"
+        android:contentDescription="@string/staff_phone_call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/stat_sys_phone_call"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:focusable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabStaffEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="166dp"
+        android:clickable="true"
+        android:contentDescription="@string/staff_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:focusable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

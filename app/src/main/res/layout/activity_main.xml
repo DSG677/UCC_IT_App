@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/iVUCCLogo"
+        android:layout_width="413dp"
+        android:layout_height="141dp"
+        android:background="#03376E"
+        android:contentDescription="@string/ucc_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ucc_logo"
+        tools:srcCompat="@drawable/ucc_logo" />
+
+    <ImageButton
+        android:id="@+id/iBFacebook"
+        android:layout_width="137dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="124dp"
+        android:background="#03376E"
+        android:contentDescription="@string/facebook"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iBTwitter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdmission"
+        app:srcCompat="@drawable/facebook_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/iBTwitter"
+        android:layout_width="137dp"
+        android:layout_height="94dp"
+        android:background="#03376E"
+        android:contentDescription="@string/twitter"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iBInstagram"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/iBFacebook"
+        app:srcCompat="@drawable/twitter_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/iBInstagram"
+        android:layout_width="137dp"
+        android:layout_height="94dp"
+        android:background="#03376E"
+        android:contentDescription="@string/instagram"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iBTwitter"
+        app:srcCompat="@drawable/instagram_icon" />
+
+    <Button
+        android:id="@+id/buttonDirectory"
+        android:layout_width="385dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#03376E"
+        android:fontFamily="casual"
+        android:text="@string/staff_directory"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCourses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCourses"
+        android:layout_width="385dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#03376E"
+        android:fontFamily="casual"
+        android:text="@string/courses"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTimetable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAdmission"
+        android:layout_width="385dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#03376E"
+        android:fontFamily="casual"
+        android:text="@string/admissions"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iBTwitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTimetable"
+        android:layout_width="385dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#03376E"
+        android:fontFamily="casual"
+        android:text="@string/timetable"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdmission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tVEmailHOD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="casual"
+        android:text="@string/email_h_o_d"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iBTwitter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdmission"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tVUCCTools"
+        android:layout_width="268dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/ucc_tools"
+        android:textAlignment="center"
+        android:textColor="#03376E"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDirectory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVUCCLogo"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#03376E"
+        android:clickable="true"
+        android:contentDescription="@string/fab_email"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/iBInstagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tVEmailHOD"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
